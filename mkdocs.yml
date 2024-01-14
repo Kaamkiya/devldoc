@@ -1,0 +1,8 @@
+site_name: My Docs
+site_url: https://example.dev
+nav:
+  - Home: index.md
+theme:
+  name: null
+  custom_dir: 'cinder'
+
