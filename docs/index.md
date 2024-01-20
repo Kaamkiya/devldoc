@@ -14,9 +14,13 @@ has **cheat sheets**,
 [**resources**](https://github.com/Kaamkiya/devl/blob/main/resources.json) to 
 help people find anything they might need help with while coding.
 
-Devl stands for **dev**eloper **l**earning. Only afterword did I realize that I had
-a perfect icon :smile:
+Devl stands for **dev**eloper **l**earning. Only afterward did I realize that I had
+a perfect icon 👿.
+
+Also, because I hate them with a passion, devl comes with zero dependencies.
+All the APIs used are hosted online, and after installation, there is no need
+for anything other than the executable that was generated.
 
 ## Installation
 
-
+Go to the [installation instructions](./dl/) to learn how to install devl.
