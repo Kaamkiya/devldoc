@@ -1,7 +1,10 @@
-site_name: My Docs
+site_name: devl
 site_url: https://example.dev
 nav:
   - Home: index.md
+  - Installation: dl.md
+  - Getting Started: usage.md
+
 theme:
   name: null
   custom_dir: 'cinder'
