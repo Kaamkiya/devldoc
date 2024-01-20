@@ -86,4 +86,28 @@ devl resource <thing>
 
 Where `<thing>` is whatever you need help with.
 
+Some other examples:
+```bash
+devl resource oop      # provide resources explaining OOP
+devl resource vuejs
+devl resource c++
+```
 
+## devl cheatsheet
+
+This fetches a cheatsheet and prints it. It currently gets the sheets from
+[Learn X in Y minutes](https://learnxinyminutes.com/). 
+
+If it exists in the 
+[LearnXinYminutes repo](https://github.com/adambard/learnxinyminutes-docs), you
+can just type the following:
+
+```bash
+devl cheatsheet <language>
+```
+
+Some examples:
+```bash
+devl cheatsheet c++
+devl cheatsheet asymptotic-notation
+```
