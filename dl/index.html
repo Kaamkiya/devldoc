@@ -117,6 +117,10 @@
         <li class="first-level active"><a href="#install-devl">Install devl</a></li>
             <li class="second-level"><a href="#prerequisites">Prerequisites</a></li>
                 
+            <li class="second-level"><a href="#option-1-with-go">Option 1: with Go</a></li>
+                
+            <li class="second-level"><a href="#option-2-with-curl-requires-git">Option 2: with curl (requires git):</a></li>
+                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -126,24 +130,13 @@
 <ul>
 <li><a href="https://go.dev/dl">Go</a> is required for building devl. You can delete it
 right after if you want to.</li>
-<li><a href="https://git-scm.com">Git</a> is required for cloning the repo.</li>
-<li>curl is required for fetching the download script</li>
 </ul>
-<details>
-<summary><i class="fa fa-caret-right"></i> Download without curl</summary>
-<hr>
-Download <a href="https://raw.githubusercontent.com/Kaamkiya/devl/main/init.sh">
-this</a> script and run this in Bash:
-
-
-<pre><code class="language-bash">sh init.sh
+<h2 id="option-1-with-go">Option 1: with Go</h2>
+<p>Run this in your terminal:</p>
+<pre><code class="language-bash">go install github.com/Kaamkiya/devl@main
 </code></pre>
-
-
-<hr>
-</details>
-
-<p>Run the following in your terminal:</p>
+<h2 id="option-2-with-curl-requires-git">Option 2: with curl (requires <a href="https://git-scm.com">git</a>):</h2>
+<p>Run this in your terminal</p>
 <pre><code class="language-bash">curl https://raw.githubusercontent.com/Kaamkiya/devl/main/init.sh | sh
 </code></pre></div>
         
