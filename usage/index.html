@@ -136,7 +136,10 @@
 <h2 id="adding-to-path">Adding to $PATH</h2>
 <p>To get started with devl, first make sure that the executable is in your path.
 This allows you to use it just by typing <code>devl</code> instead of <code>/path/to/devl</code>.</p>
-<p>On Linux/Unix/MacOS, adding devl to your path looks like this:</p>
+<p>If you installed with the Go CLI, run this in your shell:</p>
+<pre><code class="language-bash">export PATH=&quot;$PATH:$HOME/go/bin&quot;
+</code></pre>
+<p>If you installed with curl, do this:</p>
 <pre><code class="language-bash">export PATH=&quot;$PATH:$HOME/.devl&quot;
 </code></pre>
 <h2 id="getting-started">Getting started</h2>
