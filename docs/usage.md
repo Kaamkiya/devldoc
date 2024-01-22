@@ -6,7 +6,12 @@ If you haven't already [installed devl](/dl), do that first.
 To get started with devl, first make sure that the executable is in your path.
 This allows you to use it just by typing `devl` instead of `/path/to/devl`.
 
-On Linux/Unix/MacOS, adding devl to your path looks like this:
+If you installed with the Go CLI, run this in your shell:
+```bash
+export PATH="$PATH:$HOME/go/bin"
+```
+
+If you installed with curl, do this:
 ```bash
 export PATH="$PATH:$HOME/.devl"
 ```
